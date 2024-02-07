@@ -29,7 +29,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - This project utilizes transfer learning techniques made possible by pre-trained models available in PyTorch.
 - The dataset used in this project is from [https://www.kaggle.com/datasets/iamsouravbanerjee/animal-image-dataset-90-different-animals]. Please refer to the original source for licensing and usage terms.
-
-## Contact
-
-For any inquiries or suggestions, feel free to contact [Your Name](mailto:your_email@example.com).
