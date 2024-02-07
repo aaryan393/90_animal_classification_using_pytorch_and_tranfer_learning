@@ -1,6 +1,6 @@
 # Animal Classification with PyTorch and Transfer Learning
 
-This repository contains a PyTorch implementation for classifying 90 different animals using transfer learning techniques. The project utilizes pre-trained models and fine-tuning to achieve accurate classification results.
+This repository contains a PyTorch implementation for classifying 90 different animals using transfer learning techniques. The project constits of dumpy CNN for the propose of get the right shape for matrix and pre-trained models
 
 ## Dataset
 
