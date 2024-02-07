@@ -21,6 +21,22 @@ You can install the required Python packages using pip:
 pip install torch torchvision 
 ```
 
+## Steps
+# Data Transforms:
+
+Apply appropriate data transformations such as resizing, cropping, and normalization. These transforms help in preprocessing the images before feeding them into the network for training.
+# Splitting Data:
+
+Split the dataset into training, validation, and test sets. Typically, you would use a larger portion for training, a smaller portion for validation to tune hyperparameters, and a separate test set for final evaluation.
+# Build a Dummy CNN:
+
+Before utilizing pre-trained models, build a simple Convolutional Neural Network (CNN) to ensure that the input and output shapes match the requirements. This step helps in understanding the architecture and dimensions of the network.
+# Train-Validation-Test Loop:
+
+Implement the training, validation, and test loops. During training, monitor the performance on the validation set and adjust hyperparameters accordingly to prevent overfitting. Finally, evaluate the model on the test set to assess its generalization ability.
+# Import Pre-trained Models:
+
+Import pre-trained models like VGG, DenseNet, etc., from torchvision. These models have been trained on large-scale datasets and can be fine-tuned for specific tasks like animal classification with relatively few additional training data.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
